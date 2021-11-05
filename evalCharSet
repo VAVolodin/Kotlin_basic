@@ -1,0 +1,20 @@
+// Need to create a set collection of letters of the alphabet with an even index
+
+
+fun main() {
+    /////////////////// 1 method /////////////////////////////
+    
+    val charSet = "abcdefghijklmnopqrstuvwxyz".toSet()
+	println(charSet.filter{ charSet.indexOf(it) !==0 && charSet.indexOf(it)%2 == 0 })
+
+    /////////////////// 2 method /////////////////////////////
+    
+    val evalCharSet = mutableSetOf<Char>()
+    
+    for (i in 1..charSet.size-1){
+        if (i%2 == 0) {
+            evalCharSet.add(charSet.elementAt(i))
+        }
+    }
+    print(evalCharSet)
+}
