@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RecyclerViewApp</string>
+    <string name="toast_btn">toast</string>
 </resources>

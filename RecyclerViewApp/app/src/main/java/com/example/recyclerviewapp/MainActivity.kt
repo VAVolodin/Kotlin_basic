@@ -2,6 +2,7 @@ package com.example.recyclerviewapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -16,6 +17,11 @@ class MainActivity : AppCompatActivity() {
         val userRecyclerView: RecyclerView = findViewById(R.id.users_recyclerView)
         userRecyclerView.layoutManager =
             LinearLayoutManager(this,LinearLayoutManager.VERTICAL, false)
+        userRecyclerView.addItemDecoration(
+            DividerItemDecoration(
+                this,DividerItemDecoration.VERTICAL
+            )
+        )
         userRecyclerView.adapter = UserAdapter(userNameList)
     }
 
