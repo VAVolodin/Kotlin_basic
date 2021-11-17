@@ -11,7 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val bannerList: List<Banner> = listOf(
-            Banner(R.id.banner_image,"Hello!!")
+            Banner(R.drawable.ic_launcher_background,"Hello!!"),
+            Banner(R.drawable.ic_launcher_background,"How are you ?"),
+            Banner(R.drawable.ic_launcher_background,"I'm fine =)")
         )
 
         val bannersRecyclerView: RecyclerView = findViewById(R.id.banners_recyclerView)

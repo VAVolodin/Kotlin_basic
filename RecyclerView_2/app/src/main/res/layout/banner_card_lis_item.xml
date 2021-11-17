@@ -4,7 +4,8 @@
     android:layout_height="150dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="30dp"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    >
     
     <ImageView
         android:id="@+id/banner_image"
