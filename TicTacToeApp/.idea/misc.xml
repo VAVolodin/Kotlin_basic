@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kotlin_basic/TicTacToeApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Kotlin_basic/TicTacToeApp/app/src/main/res/layout/players_setup.xml" value="0.37135416666666665" />
         <entry key="..\:/TicTacToeApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>

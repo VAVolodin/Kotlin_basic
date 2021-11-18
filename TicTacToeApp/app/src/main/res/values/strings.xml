@@ -10,4 +10,9 @@
     <string name="c1_description">first cell of third row</string>
     <string name="c2_description">second cell of third row</string>
     <string name="c3_description">third cell of third row</string>
+    <string name="setup_title_text">Enter Your Name</string>
+    <string name="label1">Player 1</string>
+    <string name="label2">Player 2</string>
+    <string name="submit_btn">Submit</string>
+    <string name="name_hint">Enter Your Name</string>
 </resources>
