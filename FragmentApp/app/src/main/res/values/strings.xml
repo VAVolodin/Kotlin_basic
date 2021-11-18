@@ -5,4 +5,6 @@
     <string name="about_us">about us</string>
     <string name="about_our_company">About our Company</string>
     <string name="back_button_text">back</string>
+    <string name="menu">Menu</string>
+    <string name="about">About us</string>
 </resources>
